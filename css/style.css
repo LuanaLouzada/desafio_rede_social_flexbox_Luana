@@ -1,0 +1,62 @@
+body{
+    background-color: gainsboro;
+    font-family: 'Raleway';
+}
+
+
+
+.tela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    margin: 10px;
+    border: grey;
+    border-style: ridge;
+    border-width: 0.5px;
+}
+
+
+.fotos{
+    flex-direction: column;
+    display: flex;
+    width: 200px;
+}
+.fotousuario{
+    width: 150px;
+    margin:50px 35px 18px 25px;
+}
+
+.redessociais{
+    display: flex;
+    justify-content: center;
+}
+
+.icones{
+    width: 35px;
+    padding: 3px;
+    margin: 0px 0px 10px 0px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.botao{
+    padding: 10px;
+    width: 100px;
+    margin: 6px 0px 0px 0px;
+    background-color: grey;
+    border-color: rgb(128, 127, 127);
+    color: white;
+    text-align: center;
+}
